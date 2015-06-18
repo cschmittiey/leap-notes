@@ -2,7 +2,7 @@
 notes for using leap
 ## provider
 ### webapp
-To create admins in the webapp, create services/webapp.json
+To create admins for the webapp, create services/webapp.json in your provider directory
 ```json
 {
   "webapp": {
@@ -11,7 +11,7 @@ To create admins in the webapp, create services/webapp.json
 }
 
 ```
-Note: only do this after creating said user.
+Note: only do this **afte**r creating said user.
 ### nagios
 username: nagiosadmin
 
@@ -21,4 +21,6 @@ password: in secrets.json
 ```
 sudo dnf install openssl-devel libffi-devel sqlite-devel python-devel
 git clone https://github.com/leapcode/bitmask_client
+cd bitmask_client
+sudo ./setup.py install
 ```
