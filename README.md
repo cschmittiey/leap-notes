@@ -2,7 +2,7 @@
 notes for when creating a leap provider
 
 ## webapp
-To create admins in the webapp, create secrets/webapp.json
+To create admins in the webapp, create services/webapp.json
 ```json
 {
   "webapp": {
