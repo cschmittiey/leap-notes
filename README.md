@@ -11,7 +11,7 @@ To create admins in the webapp, create services/webapp.json
 }
 
 ```
-
+Note: only do this after creating said user.
 ## nagios
 username: nagiosadmin
 
