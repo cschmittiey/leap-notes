@@ -1,7 +1,7 @@
 # leap-notes
-notes for when creating a leap provider
-
-## webapp
+notes for using leap
+## provider
+### webapp
 To create admins in the webapp, create services/webapp.json
 ```json
 {
@@ -12,7 +12,13 @@ To create admins in the webapp, create services/webapp.json
 
 ```
 Note: only do this after creating said user.
-## nagios
+### nagios
 username: nagiosadmin
 
 password: in secrets.json
+##bitmask
+###installing bitmask on fedora
+```
+sudo dnf install openssl-devel libffi-devel sqlite-devel python-devel
+git clone https://github.com/leapcode/bitmask_client
+```
