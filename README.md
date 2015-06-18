@@ -19,7 +19,7 @@ password: in secrets.json
 ##bitmask
 ###installing bitmask on fedora
 ```
-sudo dnf install openssl-devel libffi-devel sqlite-devel python-devel
+sudo dnf install openssl-devel libffi-devel sqlite-devel python-devel python-pyside
 git clone https://github.com/leapcode/bitmask_client
 cd bitmask_client
 sudo ./setup.py install
