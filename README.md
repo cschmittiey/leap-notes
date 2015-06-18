@@ -14,4 +14,5 @@ To create admins in the webapp, create services/webapp.json
 
 ## nagios
 username: nagiosadmin
+
 password: in secrets.json
